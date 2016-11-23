@@ -9,7 +9,7 @@
   justify-content: center;
   flex-direction: column; }
   .hero.landscape {
-    color: white; }
+    color: White; }
   .hero.bridge {
     background-image: url(../img/bridge/full-width.jpg);
     width: 100%; }
