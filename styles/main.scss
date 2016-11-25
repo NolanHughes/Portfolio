@@ -14,8 +14,6 @@ $accent-color: #00E2AC;
 
   &.landscape {
     color: White;
-    // -webkit-text-stroke-width: 1px;
-    // -webkit-text-stroke-color: #f2f2f2;
   }
   &.bridge {
     background-image: url(../img/bridge/full-width.jpg);
@@ -110,6 +108,17 @@ $accent-color: #00E2AC;
 }
 
 #social {
+  // font-family: "Roboto", serif;
+  // text-align: center;
+  // min-height: 800px;
+  // background-size: cover;
+  // padding-bottom: 50px;
+  //
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // flex-direction: column;
+  //
   padding: 20px;
   a {
     margin: 0px 0px 0px 10px;
