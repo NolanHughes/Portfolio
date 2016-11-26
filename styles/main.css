@@ -83,10 +83,10 @@
 #social {
   padding: 20px; }
   #social a {
-    margin: 0px 0px 0px 10px;
+    margin: 0px 5px 0px 5px;
     text-decoration: none; }
   #social img {
-    font-size: 20px; }
+    height: 20px; }
     #social img:hover {
       opacity: 0.5; }
 

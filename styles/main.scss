@@ -99,33 +99,20 @@ $accent-color: #00E2AC;
   }
 }
 
-#contact {
-  p{
+#contact p{
     font-size: 24px;
     margin-bottom: 40px;
     max-width: 740px;
   }
-}
 
 #social {
-  // font-family: "Roboto", serif;
-  // text-align: center;
-  // min-height: 800px;
-  // background-size: cover;
-  // padding-bottom: 50px;
-  //
-  // display: flex;
-  // align-items: center;
-  // justify-content: center;
-  // flex-direction: column;
-  //
   padding: 20px;
   a {
-    margin: 0px 0px 0px 10px;
+    margin: 0px 5px 0px 5px;
     text-decoration: none;
   }
   img {
-    font-size: 20px;
+    height: 20px;
     &:hover {
       opacity: 0.5;
     }
