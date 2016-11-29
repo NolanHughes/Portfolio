@@ -13,7 +13,7 @@ $accent-color: #00E2AC;
   flex-direction: column;
 
   &.landscape {
-    color: White;
+    color: white;
   }
   &.bridge {
     background-image: url(../img/bridge/full-width.jpg);
@@ -67,10 +67,9 @@ $accent-color: #00E2AC;
     text-transform: uppercase;
     font-weight: 700;
     h2 {
-      margin-top: 0px;
-      margin-bottom: 0px;
+      margin-top: 0;
+      margin-bottom: 0;
       font-size: 60px;
-      font-weight: 700;
       line-height: 55px;
     }
   }
@@ -86,8 +85,6 @@ $accent-color: #00E2AC;
 
 #gallery {
   background-color: #EEFDF9;
-  padding: 0px;
-  margin: 0px;
   .col-md-4 {
     overflow: hidden;
     padding: 0px 5px 10px 5px;
@@ -130,37 +127,37 @@ $accent-color: #00E2AC;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
 
   a {
     color: black;
     font-size: 16px;
     line-height: 40px;
-    padding: 0px;
-    margin-right: 5px;
-    margin-left: 20px;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 20px;
   }
   .footer-item {
     flex: 1;
     max-width: 100px;
   }
-  .copyright {
-    margin-left: auto;
-    color: $accent-color;
-  }
+}
+
+.copyright {
+  margin-left: auto;
+  color: $accent-color;
 }
 
 @media only screen and (max-width: 480px){
   #intro {
     min-height: 640px;
   }
-  .left-col h2 {
+  #about .left-col h2 {
     font-size: 42px;
     line-height: 40px;
   }
   #footer {
-    margin-right: 20px;
     margin-left: 20px;
+    margin-right: 20px;
     h4 {
       margin-right: 20px;
     }
@@ -171,7 +168,7 @@ $accent-color: #00E2AC;
   .row {
     width: 100%;
   }
-  .col-md-4 {
+  #gallery .col-md-4 {
     width: 100%;
     img {
       width: 100%;

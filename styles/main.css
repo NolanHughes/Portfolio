@@ -9,7 +9,7 @@
   justify-content: center;
   flex-direction: column; }
   .hero.landscape {
-    color: White; }
+    color: white; }
   .hero.bridge {
     background-image: url(../img/bridge/full-width.jpg);
     width: 100%; }
@@ -51,10 +51,9 @@
     text-transform: uppercase;
     font-weight: 700; }
     #about .left-col h2 {
-      margin-top: 0px;
-      margin-bottom: 0px;
+      margin-top: 0;
+      margin-bottom: 0;
       font-size: 60px;
-      font-weight: 700;
       line-height: 55px; }
   #about .right-col {
     text-align: left;
@@ -64,9 +63,7 @@
       line-height: 30px; }
 
 #gallery {
-  background-color: #EEFDF9;
-  padding: 0px;
-  margin: 0px; }
+  background-color: #EEFDF9; }
   #gallery .col-md-4 {
     overflow: hidden;
     padding: 0px 5px 10px 5px; }
@@ -97,42 +94,42 @@
   padding-bottom: 150px;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center; }
+  align-items: center; }
   #footer a {
     color: black;
     font-size: 16px;
     line-height: 40px;
-    padding: 0px;
-    margin-right: 5px;
-    margin-left: 20px; }
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 20px; }
   #footer .footer-item {
     flex: 1;
     max-width: 100px; }
-  #footer .copyright {
-    margin-left: auto;
-    color: #00E2AC; }
+
+.copyright {
+  margin-left: auto;
+  color: #00E2AC; }
 
 @media only screen and (max-width: 480px) {
   #intro {
     min-height: 640px; }
 
-  .left-col h2 {
+  #about .left-col h2 {
     font-size: 42px;
     line-height: 40px; }
 
   #footer {
-    margin-right: 20px;
-    margin-left: 20px; }
+    margin-left: 20px;
+    margin-right: 20px; }
     #footer h4 {
       margin-right: 20px; } }
 @media only screen and (max-width: 992px) {
   .row {
     width: 100%; }
 
-  .col-md-4 {
+  #gallery .col-md-4 {
     width: 100%; }
-    .col-md-4 img {
+    #gallery .col-md-4 img {
       width: 100%;
       max-width: 992px;
       max-height: 990px; } }
