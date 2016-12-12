@@ -26,20 +26,20 @@ $(document).ready(function() {
     });
   }
 
-    function getTimeOfDay () {
-        var time = new Date();
-        var hours = time.getHours();
-        var timeOfDay;
+  function getTimeOfDay () {
+      var time = new Date();
+      var hours = time.getHours();
+      var timeOfDay;
 
-        if (hours > 17) {
-          timeOfDay = "night";
-        } else if (hours > 12) {
-          timeOfDay = "afternoon";
-        } else {
-          timeOfDay = "morning";
-        }
-        return timeOfDay;
+      if (hours > 17) {
+        timeOfDay = "night";
+      } else if (hours > 12) {
+        timeOfDay = "afternoon";
+      } else {
+        timeOfDay = "morning";
       }
+      return timeOfDay;
+    }
 
     function loadImage(conditions) {
         var imageSRC = "img/weather/hero-";
