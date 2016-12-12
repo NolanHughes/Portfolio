@@ -13,6 +13,8 @@
   .hero.bridge {
     background-image: url(../img/bridge/full-width.jpg);
     width: 100%; }
+    .hero.bridge h3 {
+      color: white; }
   .hero h1 {
     line-height: 55px;
     font-size: 72px; }
