@@ -7,10 +7,13 @@ $(document).ready(function() {
 
       return false;
     })
-    .on("click", ".js-menu-close", function() {
+    // Sidebar : Close when Sidebar link clicked
+    .on("click", "#sidebar-wrapper", function() {
       $menu.removeClass("open");
-
-      return false;
+    })
+    // Sidebar : Close from outside the Sidebar
+    .on("mouseup", "#main-wrapper", function() {
+      $menu.removeClass("open");
     });
 
   getWeather();
@@ -54,3 +57,11 @@ $(document).ready(function() {
       }
 
 });
+//
+// $(#close-btn).ready(function() {
+//   .on("click", ".js-menu-close", function() {
+//     $menu.removeClass("open");
+//
+//     return false;
+//   })
+// });
